@@ -1,5 +1,5 @@
 # Data Engineer Challenge
- This challenge is done as a part of recruitment process. The goal of the challenge is to have a tool to stream data from `kafka` and counting unique users per minute.
+ This challenge is done as a part of recruitment process. The goal of the challenge is to have a tool to stream data from `kafka` and counting unique users per minute. You can download the sample data provided [here](https://tda-public.s3.eu-central-1.amazonaws.com/hire-challenge/stream.jsonl.gz): 
 
 
 # How to run with Docker
