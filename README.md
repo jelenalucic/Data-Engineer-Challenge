@@ -34,7 +34,7 @@
 
 The solution gives us information about how many unique users are processed in each minute. Also, we have insight into how many messages are being processed per minute to assess the efficiency of the dataflow.
 
-The throughput could be improved by increasing the number of producers and consumers, creating them with multiple partitions.
+The throughput could be improved by increasing the number of producers and consumers, creating them with `multiple partitions`. This would result in load balancing.
 
 When counting the number of unique users, `set` data structure is being used, since it stores unique elements of the same type, and therefore no `user_id` duplicates are found.
 
